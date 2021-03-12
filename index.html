@@ -8,11 +8,21 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Página inicial</title>
 </head>
+
+<script>
+    var navbar = document.getElementsByClassName("nav-link");
+    navbar.addEventListener('click', function(){
+
+         alert("Clicou");
+
+    });
+</script>
+
 <body>
     <header>
-        <nav class="nav">
-            <ul class="navbar">
-                <li class="nav-link"><a href="#"></a></li>
+        <nav class="nav" id="nav">
+            <ul class="navbar" id="nav-navbar">
+                <li class="nav-link"><a href="#">Link</a></li>
                 <li class="nav-link"><a href="#"></a></li>
                 <li class="nav-link"><a href="#"></a></li>
                 <li class="nav-link"><a href="#"></a></li>
